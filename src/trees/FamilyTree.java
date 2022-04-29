@@ -66,7 +66,7 @@ public class FamilyTree
 		ArrayList<TreeNode> collectAncestorsToList()
 		{
 			ArrayList<TreeNode> ancestors = new ArrayList<>();
-			TreeNode current = this.parent;
+			TreeNode current = this.parent; 
 			while(current != null) {
 				ancestors.add(current);
 				current = current.parent;
